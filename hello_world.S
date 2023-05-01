@@ -28,4 +28,6 @@ msg:                           # NULL terminated string
         .word 0xaa55                        # Boot signature
 
 #modificacoes:
-# na linha 13, cmp foi substituido por xor e na linha 16, add foi substituido por um incremento simples.
+# na linha 13, cmp foi substituido por xor e na linha 16, add foi substituido por um incremento simples e 
+#string foi substituido por ascii.
+
